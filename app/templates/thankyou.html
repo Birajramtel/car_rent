@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+   <div class="ftco-blocks-cover-1">
+      <div class="ftco-cover-1 overlay innerpage" style="background-image: url('{% static 'images/hero_2.jpg'%} ')">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 text-center">
+              <span class="icon-check_circle display-3 text-success"></span>
+            <h2 class="display-3 font-heading-serif" style="color:#b7d2cb !important">Thank you!</h2>
+            <p class="lead mb-5">You order was successfuly completed.</p>
+            <p><a href="/cars/" class="btn btn-md height-auto px-4 py-3 btn-primary">Back to store</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
